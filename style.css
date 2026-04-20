@@ -1,0 +1,116 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.menu{
+  height: 65px;
+  width: 100%;
+  background-color: grey;
+  display: flex;
+}
+.logo{
+  line-height: 65px;
+}
+.menu ul{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.menu ul li{
+  list-style: none;
+}
+.menu ul a{
+  text-decoration: none;
+}
+.menu ul li a:hover{
+background-color: blue;
+color: white;
+padding: 5px;
+}
+.hero{
+  height: 550px;
+  width: 100%;
+  background: linear-gradient(45deg,green,yellow);
+}
+.content{
+  text-align: center;
+  padding-top: 180px;
+}
+.content button{
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+  color: rgb(51,228,207);
+  border: none;
+  border-radius: 50px;
+}
+.content button:hover{
+background-color: green;
+color: white;
+}
+.about{
+  height: 200px;
+  width: 100%;
+  padding: 70px;
+  text-align: center;
+}
+.projectile{
+  height: 600px;
+  width: 100%;
+  text-align: center;
+  padding-top: 30px;
+  background-color: rgb(240,240,240);
+  margin: auto;
+}
+.project{
+  height: 100px;
+  width: 300px;
+  background-color: white;
+  padding: 17px;
+  transition: 0.3s;
+  margin:20px auto;
+}
+.project:hover{
+  transform: translateY(-15px);
+}
+.project a{
+  text-decoration: none;
+  
+}
+.btn{
+  display: inline-block;
+  margin-top: 8px;
+  padding: 10px 15px;
+  font-size: 18px;
+  color: yellow;
+  background-color: rgb(237,84,84);
+}
+.contact{
+  height: 120px;
+  width: 100%;
+  text-align: center;
+  padding-top: 40px;
+}
+.but{
+  display: inline-block;
+  padding-top: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 8px 15px;
+  background-color: rgb(237,84,84);
+}
+.but:hover{
+background-color: green;
+color: white;
+}
+.footer{
+  height: 60px;
+  width: 100%;
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
